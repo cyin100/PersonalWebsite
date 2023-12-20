@@ -1,0 +1,76 @@
+[
+  {
+      "id": "voluntarius",
+      "title": "Voluntarius",
+      "creationDate": "Hack for Humanity 2022",
+      "description": "Voluntarius is a web and mobile application that connects volunteers with those in need. Users can post job listings, view nearby tasks on an interactive map, apply, and chat with job posters. Completed hours can be exported as PDFs for easy volunteering records. The app uses Flutter for cross-platform development, Firebase for authentication and database management, and Node.js for real-time updates and notifications.\n\nI was personally responsible for processing push notifications with Node.js, creating Dart classes for Firebase, and the volunteer hour PDF generator with Flutter. This was my first hackathon and my first time working with Flutter, Node.js, and Firebase. It was a fantastic experience working with a team to develop an app in 24 hours and learning new technologies.",
+      "tags": ["Dart", "Flutter", "Firebase", "JavaScript", "Node.js"],
+      "logo": "/images/voluntariuslogo.png",
+      "images": ["/images/voluntarius.jpg"],
+      "links": {
+          "GitHub": "https://github.com/jordanmosakowski/voluntarius",
+          "DevPost": "https://devpost.com/software/redacted-lx52yk",
+          "Live Site": "https://voluntarius-h4h.web.app/"
+      }
+  },
+  {
+      "id": "human-benchmark-bot",
+      "title": "Human Benchmark Bot",
+      "creationDate": "January 2022",
+      "description": "The Human Benchmark Bot is a collection of webscraping scripts aimed to achieve the highest possible score on the Human Benchmark Tests, which measure abilities such as reaction time, visual memory, verbal memory, etc. The programs use many python libraries such as PyAutoGUI for clicking on different parts of the screen, Python Imaging Library (PIL) for scanning the screen, and Selenium Webdriver for navigating webpages and clicking HTML elements.\n\nThe project earned 3rd place for SCUACM's Winter Challenge 2022. Building the Human Benchmark Bot reminded me that personal projects are about solving challenges you see in life, and that you can overcome them with enough research and hard work.",
+      "tags": ["Python", "Selenium", "PyAutoGUI", "PIL", "Pynput"],
+      "logo": "/images/humanbenchmarklogo.png",
+      "images": ["/images/humanbenchmark.gif", "/images/humanbenchmark2.gif"],
+      "links": {
+          "GitHub": "https://github.com/cyin100/HumanBenchmarkBot",
+          "HumanBenchmark Site": "https://humanbenchmark.com/"
+      }
+  },
+  {
+      "id": "game-plan",
+      "title": "Game Plan",
+      "creationDate": "INRIX Hack 2022 Finalist",
+      "description": "Game Plan is a web and mobile app that simplifies planning day trips. Users fill out a questionnaire about their preferences for date, time, area, and interests. The app then curates a customized itinerary with various activities in the chosen locale. It's developed using Flutter and for a seamless front-end experience, and combines Firebase with Flask for backend processing. The app's standout feature is its unique algorithm, which taps into INRIX and Google Maps APIs to offer tailored suggestions based on location ratings and tags.\n\nMy contribution to GamePlan was leading the backend development in Python/Flask. I implemented the algorithm to interact with INRIX and Google Maps APIs, identifying potential hotspots and calculating travel times and distances. This was my first experience leading the backend for a project, and I learned a lot about piecing APIs together as well as saving costs by reducing API calls.",
+      "tags": ["Dart", "Flutter", "Firebase", "Python", "Flask", "INRIX", "Google Maps"],
+      "logo": "/images/gameplanlogo.jpg",
+      "images": ["/images/gameplan.png"],
+      "links": {
+          "GitHub": "https://github.com/rukasuamarike/game-plan",
+          "DevPost": "https://devpost.com/software/gameplan"
+      }
+  },
+  {
+      "id": "undertale-file-loader",
+      "title": "Undertale File Loader",
+      "creationDate": "February 2022",
+      "description": "Undertale File Loader is a Command Line Interface program to help you load save files from custom starting points in the games UNDERTALE and DELTARUNE. Users can choose from a large selection of points in the game and the program will boot up the game and start from there. It also provides options to backup your save data and restore it later, and even to hack in overpowered items or buff your stats.\n\nBeing an avid UNDERTALE fan, I developed the script mostly for my own usage, letting me jump into my favorite boss fights without having to start all the way from the beginning. Writing the script was great practice for File I/O with Python and providing user flexibility.",
+      "tags": ["Python"],
+      "images": ["/images/undertale.jpg", "/images/spamton.png"],
+      "links": {
+          "GitHub": "https://github.com/cyin100/UndertaleFileLoaders"
+      }
+  },
+  {
+      "id": "personal-portfolio-site",
+      "title": "Personal Portfolio Site",
+      "creationDate": "Year 20XX",
+      "description": "This site! Built from scratch using React and Tailwind CSS.",
+      "tags": ["React", "Tailwind"],
+      "images": ["/images/personalsite1.jpg", "/images/personalsite2.jpg"],
+      "links": {
+          "GitHub": "https://github.com/cyin100/personal-site"
+      }
+  },
+  {
+      "id": "scu-coen",
+      "title": "SCU COEN",
+      "creationDate": "2021-2025",
+      "description": "Collection of my Computer Science & Engineering work at Santa Clara University\n\nCOEN12: Data Structures\n\nCOEN20: Embedded Systems\n\nCOEN79: Object Oriented Programming\n\nCOEN140: Machine Learning\n\nCOEN146: Computer Networks\n\nCOEN160: Adv. Object Oriented Programming\n\nCOEN171: Programming Languages",
+      "tags": ["C++", "Python", "ARM Assembly"],
+      "logo": "/images/sculogo.png",
+      "images": ["/images/machinelearning.png"],
+      "links": {
+          "GitHub": "https://github.com/cyin100/SCU"
+      }
+  }
+]

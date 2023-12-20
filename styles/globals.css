@@ -25,3 +25,23 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.bg-gradient-name {
+  background-image: linear-gradient(to right, #2dd4bf, #3b82f6);
+}
+
+.image-container {
+  max-width: 500px; /* Or the maximum width you prefer */
+  width: 100%;
+}
+
+.project-enter {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.project-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+}

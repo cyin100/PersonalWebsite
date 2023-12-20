@@ -1,0 +1,59 @@
+[
+    {
+      "id": "voluntarius",
+      "title": "Voluntarius",
+      "description": "Connecting volunteers and those in need",
+      "image": "/images/voluntarius.jpg",
+      "href": "/projects"
+    },
+    {
+      "id": "human-benchmark-bot",
+      "title": "Human Benchmark Bot",
+      "description": "Produce superhuman scores on the Human Benchmark Tests",
+      "image": "/images/humanbenchmark.gif",
+      "href": "/projects"
+    },
+    {
+      "id": "game-plan",
+      "title": "Game Plan",
+      "description": "Generate day trip plans based off time and location",
+      "image": "/images/gameplan.png",
+      "href": "/projects"
+    },
+    {
+      "id": "undertale-file-loader",
+      "title": "Undertale File Loader",
+      "description": "Load various save files for Undertale and Deltarune",
+      "image": "/images/undertale.jpg",
+      "href": "/projects"
+    },
+    {
+      "id": "gameplan",
+      "title": "Personal Website",
+      "description": "This site! ",
+      "image": "/images/gameplan.png",
+      "href": "/projects"
+    },
+    {
+      "id": "scu-coen",
+      "title": "SCU Computer Labs",
+      "description": "Collection of my work at SCU",
+      "image": "/images/scu.jpg",
+      "href": "/projects"
+    },
+    {
+      "id": "wordle-helper",
+      "title": "Wordle Helper",
+      "description": "Prints out possible remaining words for Wordle",
+      "image": "/images/scu.jpg",
+      "href": "/projects"
+    },
+    {
+      "id": "portfolio-site",
+      "title": "Portfolio Site [OLD]",
+      "description": "Previous version of my portfolio, built with React.js and Tailwind CSS",
+      "image": "/images/personalsite.jpg",
+      "href": "/projects"
+    }
+]
+  
