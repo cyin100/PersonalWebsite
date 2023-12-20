@@ -13,7 +13,7 @@ export default function Experience() {
             <span>Experience</span>
           </h1>
 
-          <p className="text-gray-400 mb-4">Here are some of the roles I've held and projects I've worked on. For more details, you can connect with me on <a href="https://linkedin.com/in/your-linkedin" className="underline hover:text-white">LinkedIn</a>.</p>
+          <p className="text-gray-400 mb-4">Here are some of the roles I&apos;ve held and projects I&apos;ve worked on. For more details, you can connect with me on <a href="https://linkedin.com/in/your-linkedin" className="underline hover:text-white">LinkedIn</a>.</p>
 
           <div className="mb-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-left mx-auto">
             {experienceData.map((experience, index) => (

@@ -19,10 +19,10 @@ export default function Home() {
           </div>
 
           <h1 className="text-5xl font-bold">
-            <span className="bg-gradient-name bg-clip-text text-transparent">Hello, I'm </span>
+            <span className="bg-gradient-name bg-clip-text text-transparent">Hello, I&apos;m </span>
             <span>Conner Yin</span>
           </h1>
-          <p className="text-gray-400 mt-4">I'm an aspiring software engineer currently studying at Santa Clara University. Have a look around to see what I've been up to!</p>
+          <p className="text-gray-400 mt-4">I&apos;m an aspiring software engineer currently studying at Santa Clara University. Have a look around to see what I&apos;ve been up to!</p>
           <div className="flex justify-center mt-6 space-x-4">
             <a href="mailto:conner.yin@gmail.com" className="w-14 h-14 bg-gray-800 hover:bg-gray-700 rounded-full flex items-center justify-center">
               <Image src="/images/gmail.svg" alt="Mail" width={48} height={48} />
