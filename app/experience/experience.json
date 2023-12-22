@@ -1,10 +1,90 @@
 [
   {
+    "company": "Microsoft",
+    "role": "Incoming Software Engineer Intern (Summer 2024)",
+    "category": "Professional",
+    "period": "June 2024 - Sep 2024",
+    "description": "Joining MSFT in Redmond, WA next summer",
+    "companylogo": "/images/microsoftlogo.png"
+  },
+  {
     "company": "Roche",
     "role": "Software Engineer Intern",
     "category": "Professional",
-    "period": "Jan 2021 - Present",
-    "description": "basic description about 6-10 words long",
+    "period": "Jun 2023 - Sep 2023",
+    "description": "DevOps/Cloud engineering for Roche Information Solutions",
     "companylogo": "/images/rochelogo.png"
+  },
+  {
+    "company": "Intel",
+    "role": "Software Engineer Intern",
+    "category": "Professional",
+    "period": "Mar 2022 - Aug 2022",
+    "description": "Full-stack application building for NAND-DTM Capability & Analytics team",
+    "companylogo": "/images/intellogo.png"
+  },
+  {
+    "company": "SCU ACM",
+    "role": "Board Member",
+    "category": "Leadership",
+    "period": "April 2022 - Present",
+    "description": "Workshop/Outreach coordinator, Competitive Programming (ICPC) President",
+    "companylogo": "/images/acmlogo.png"
+  },
+  {
+    "company": "Applied Computing Foundation",
+    "role": "Startup Coach, Instructor",
+    "category": "Leadership",
+    "period": "Jan 2021 - Present",
+    "description": "Mentor high-school startup team",
+    "companylogo": "/images/acflogo.png"
+  },
+  {
+    "company": "TeamsCode",
+    "role": "Executive Vice President",
+    "category": "Leadership",
+    "period": "Jan 2021 - Present",
+    "description": "Hosting in-person and online coding competitions",
+    "companylogo": "/images/tclogo.png"
+  },
+  {
+    "company": "USACO",
+    "role": "Gold Division Contestant",
+    "category": "Other",
+    "period": "Jan 2021 - Present",
+    "description": "Programming competition",
+    "companylogo": "/images/usacologo.webp"
+  },
+  {
+    "company": "X-Camp Academy",
+    "role": "Software Developer Intern",
+    "category": "Professional",
+    "period": "Jan 2021 - Present",
+    "description": "Grading and email automation, develop and maintain X-Camp website and new LMS",
+    "companylogo": "/images/xcamplogo.png"
+  },
+  {
+    "company": "STEMBoost",
+    "role": "CS Division Lead",
+    "category": "Leadership",
+    "period": "Jan 2021 - Present",
+    "description": "Organize curriculum and teach workshops",
+    "companylogo": "/images/stemboostlogo.png"
+  },
+  {
+    "company": "COSMOS UCSC",
+    "role": "Summer Program Participant",
+    "category": "Other",
+    "period": "Jan 2021 - Present",
+    "description": "Video Game Design: From Concept to Code",
+    "companylogo": "/images/cosmoslogo.png"
+  },
+  {
+    "company": "MVRT",
+    "role": "Software Team",
+    "category": "Other",
+    "period": "Sep 2018 - Jun 2019",
+    "description": "Competing in FRC (First Robotics Competition)",
+    "companylogo": "/images/mvrtlogo.png"
   }
 ]

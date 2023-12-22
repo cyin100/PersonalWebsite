@@ -67,7 +67,7 @@
         "title": "SCU COEN",
         "creationDate": "2021-2025",
         "description": "Collection of my Computer Science & Engineering work at Santa Clara University\n\nCOEN12: Data Structures\n\nCOEN20: Embedded Systems\n\nCOEN79: Object Oriented Programming\n\nCOEN140: Machine Learning\n\nCOEN146: Computer Networks\n\nCOEN160: Adv. Object Oriented Programming\n\nCOEN171: Programming Languages",
-        "tags": ["C++", "Python", "ARM Assembly"],
+        "tags": ["C", "C++", "Python", "Java", "ARM Assembly"],
         "logo": "/images/sculogo.png",
         "images": ["/images/machinelearning.png"],
         "links": {
@@ -77,13 +77,13 @@
     {
         "id": "wordle-helper",
         "title": "Wordle Helper",
-        "creationDate": "2021-2025",
-        "description": "Collection of my Computer Science & Engineering work at Santa Clara University\n\nCOEN12: Data Structures\n\nCOEN20: Embedded Systems\n\nCOEN79: Object Oriented Programming\n\nCOEN140: Machine Learning\n\nCOEN146: Computer Networks\n\nCOEN160: Adv. Object Oriented Programming\n\nCOEN171: Programming Languages",
-        "tags": ["C++", "Python", "ARM Assembly"],
+        "creationDate": "January 2022",
+        "description": "Simple Command Line Interface Tool to help with Wordle. Users enter their guesses and Wordle's response, and the program will list all possible remaining words the solution can be, and repeat until solved. The algorithm is quite simple, it just follows the logic of Wordle and eliminates words based off of correct or voided letters and positions.",
+        "tags": ["Python"],
         "logo": "/images/wordlelogo.webp",
-        "images": ["/images/machinelearning.png"],
+        "images": ["/images/wordle.png"],
         "links": {
-            "GitHub": "https://github.com/cyin100/SCU"
+            "GitHub": "https://github.com/cyin100/WordleHelper"
         }
     },
     {
@@ -93,7 +93,7 @@
         "description": "Previous site for my portfolio (being replaced by the site you're on!) hosted on GitHub Pages. Single-page application featuring about me, projects, and experience sections. Built using the React.js and Tailwind CSS frameworks. While I do like the aesthetic of the site, I wanted to use a multi-page application so I could talk in more detail about each of my projects, as well as refine to a cleaner look and feel.",
         "tags": ["HTML", "CSS", "JavaScript", "React.js", "Tailwind CSS", "GitHub Pages"],
         "logo": "/images/personalsitelogo.png",
-        "images": ["/images/personalsite.jpg", "/images/oldwebsite.png"],
+        "images": ["/images/oldportfolio.png", "/images/oldwebsite.png"],
         "links": {
             "GitHub": "https://github.com/cyin100/personal-site",
             "Live Site": "https://cyin100.github.io/personal-site"
@@ -103,12 +103,37 @@
         "id": "allescan",
         "title": "AlleScan",
         "creationDate": "Hack for Humanity 2023",
-        "description": "Previous site for my portfolio (being replaced by the site you're on!) hosted on GitHub Pages. Single-page application featuring about me, projects, and experience sections. Built using the React.js and Tailwind CSS frameworks. While I do like the aesthetic of the site, I wanted to use a multi-page application so I could talk in more detail about each of my projects, as well as refine to a cleaner look and feel.",
+        "description": "AlleScan is a mobile app that highlights specified allergies from nutrition facts. Users input their allergies into their profile, and take or upload a photo of a food's ingredients. The app will then highlight any instances of potential risks. The app uses Flutter for frontend and access to camera, Firebase for user profiles, and Flask with Google Cloud Vision API for Opticl Character Recognition (OCR).\n\nI worked on the backend in Flask, utilizing Google Cloud Vision API to extracting text from images and drawing highlights around indicated ingredients.",
         "tags": ["Dart", "JavaScript", "Flutter", "Firebase", "Flask", "Google Cloud Vision API"],
         "logo": "",
         "images": ["/images/allescanlogo.png", "/images/allescan.png"],
         "links": {
-            "GitHub": "https://github.com/rukasuamarike/flutterallergy"
+            "GitHub": "https://github.com/rukasuamarike/flutterallergy",
+            "DevPost": "https://devpost.com/software/hi-9cjrfo"
+        }
+    },
+    {
+        "id": "musescore-to-pdf",
+        "title": "MusescoreToPDF",
+        "creationDate": "July 2022",
+        "description": "MuseScore is a site that hosts free sheet music. With this program, users enter in a valid MuseScore URL, and the webdriver will scrape the page and save the sheet music to a PDF for later use. MuseScore only loads pages actively on the screen, so the Pynput, PyAutoGUI, and PIL libraries are used to automatically scroll through and the Selenium Webdriver inspects the HTML to extract pages as PDFs.",
+        "tags": ["Python", "Selenium", "Pynput", "PyAutoGUI", "PIL", "MuseScore"],
+        "logo": "",
+        "images": ["/images/musescore.png"],
+        "links": {
+            "GitHub": "https://github.com/WinbertZhang/MusescoreToPDF"
+        }
+    },
+    {
+        "id": "gamepigeon",
+        "title": "Game Pigeon Tournament",
+        "creationDate": "August 2021",
+        "description": "MuseScore is a site that hosts free sheet music. With this program, users enter in a valid MuseScore URL, and the webdriver will scrape the page and save the sheet music to a PDF for later use. MuseScore only loads pages actively on the screen, so the Pynput, PyAutoGUI, and PIL libraries are used to automatically scroll through and the Selenium Webdriver inspects the HTML to extract pages as PDFs.",
+        "tags": ["AppScript"],
+        "logo": "",
+        "images": ["/images/gamepigeon.png"],
+        "links": {
+            "GitHub": "https://github.com/WinbertZhang/MusescoreToPDF"
         }
     }
 ]

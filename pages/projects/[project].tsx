@@ -45,9 +45,9 @@ const ProjectPage = () => {
   }
 
   return (
-    <div className="overflow-x-hidden">
+    <div className="bg-gradient-to-t from-gray-900 to-black min-h-screen">
       <NavBar />
-      <div className="flex flex-col min-h-screen bg-gradient-to-t to-gray-700 text-white">
+      <div className="flex flex-col min-h-screen text-white overflow-y-hidden">
         <main className="container mx-auto px-6 py-8 md:flex md:flex-col lg:flex-row md:items-start md:justify-between sm:mt-12 mb-30">
           <div className="flex flex-col lg:flex-row mx-4 sm:mx-24">
             {/* Left Side: Title, Logo, Text */}

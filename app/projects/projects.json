@@ -33,37 +33,37 @@
       "id": "allescan",
       "title": "AlleScan",
       "description": "Scan nutritional facts to highlight your allergies",
-      "image": "/images/allescan.png"
+      "image": "/images/allescanlogo.png"
     },
     {
       "id": "scu-coen",
-      "title": "SCU Computer Labs",
-      "description": "Collection of my work at SCU",
+      "title": "SCU COEN Labs",
+      "description": "Collection of my Computer Science & Engineering work at SCU",
       "image": "/images/scu.jpg"
     },
     {
       "id": "wordle-helper",
       "title": "Wordle Helper",
       "description": "Prints out possible remaining words for Wordle",
-      "image": "/images/scu.jpg"
+      "image": "/images/wordle.png"
     },
     {
       "id": "portfolio-site",
       "title": "Portfolio Site",
       "description": "Previous version of my portfolio, built with React.js and Tailwind CSS",
-      "image": "/images/personalsite.jpg"
+      "image": "/images/oldportfolio.png"
     },
     {
       "id": "gamepigeon",
-      "title": "GamePigeon Tournament",
-      "description": "Previous version of my portfolio, built with React.js and Tailwind CSS",
+      "title": "GamePigeon Tourney",
+      "description": "Hosting tournament for the SCU 2025 Discord server through Google Sheets",
       "image": "/images/gamepigeon.png"
     },
     {
-      "id": "",
-      "title": "Portfolio Site",
-      "description": "Previous version of my portfolio, built with React.js and Tailwind CSS",
-      "image": "/images/personalsite.jpg"
+      "id": "musescore-to-pdf",
+      "title": "MusescoreToPDF",
+      "description": "Save sheet music from MuseScore as PDF",
+      "image": "/images/musescore.png"
     }
 ]
   
