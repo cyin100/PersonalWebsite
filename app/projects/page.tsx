@@ -12,6 +12,10 @@ const fadeInVariants = {
 };
 
 export default function Home() {
+
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true }); // Ensure triggerOnce is set
+
   return (
     <div className="flex flex-col justify-center items-center min-h-screen text-white bg-gradient-to-t from-gray-900 to-black">
       <NavBar/>
@@ -27,8 +31,6 @@ export default function Home() {
 
         <div className="mt-4 mb-6 grid text-center md:grid-cols-2 lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left mx-auto">
         {projectsData.map((project, index) => {
-            const ref = useRef(null);
-            const isInView = useInView(ref, { once: true }); // Ensure triggerOnce is set
 
             return (
               <motion.a
