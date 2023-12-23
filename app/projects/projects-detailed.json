@@ -44,7 +44,8 @@
         "title": "Undertale File Loader",
         "creationDate": "February 2022",
         "description": "Undertale File Loader is a Command Line Interface program to help you load save files from custom starting points in the games UNDERTALE and DELTARUNE. Users can choose from a large selection of points in the game and the program will boot up the game and start from there. It also provides options to backup your save data and restore it later, and even to hack in overpowered items or buff your stats.\n\nBeing an avid UNDERTALE fan, I developed the script mostly for my own usage, letting me jump into my favorite boss fights without having to start all the way from the beginning. Writing the script was great practice for File I/O with Python and providing user flexibility.",
-        "tags": ["Python"],
+        "tags": ["Python", "CLI", "File I/O"],
+        "logo": "/images/undertalelogo.png",
         "images": ["/images/undertale.jpg", "/images/spamton.png"],
         "links": {
             "GitHub": "https://github.com/cyin100/UndertaleFileLoaders"
@@ -53,9 +54,10 @@
     {
         "id": "personal-website",
         "title": "Personal Portfolio Site",
-        "creationDate": "Year 20XX",
-        "description": "This site! Built from scratch using React and Tailwind CSS.",
+        "creationDate": "December 2023",
+        "description": "The website you're currently on! This site was made with React, Tailwind CSS, and Next.js with TypeScript, and deployed via Vercel. I chose Next.js because of how it lets you generate multi-page webapps. I'm using a template HTML/CSS component with React (e.g. for different projects) and map data from a JSON file in order to create multiple webpages with the same code. The webpages are dynamically generated and thus it's super easy to add new projects as I acquire more experience.",
         "tags": ["HTML", "CSS", "TypeScript", "React", "Tailwind CSS", "Next.js", "Vercel"],
+        "logo": "/images/newsitelogo.png",
         "images": ["/images/newsite.png"],
         "links": {
             "GitHub": "https://github.com/cyin100/personal-site",
@@ -79,7 +81,7 @@
         "title": "Wordle Helper",
         "creationDate": "January 2022",
         "description": "Simple Command Line Interface Tool to help with Wordle. Users enter their guesses and Wordle's response, and the program will list all possible remaining words the solution can be, and repeat until solved. The algorithm is quite simple, it just follows the logic of Wordle and eliminates words based off of correct or voided letters and positions.",
-        "tags": ["Python"],
+        "tags": ["Python", "CLI"],
         "logo": "/images/wordlelogo.webp",
         "images": ["/images/wordle.png"],
         "links": {
@@ -103,7 +105,7 @@
         "id": "allescan",
         "title": "AlleScan",
         "creationDate": "Hack for Humanity 2023",
-        "description": "AlleScan is a mobile app that highlights specified allergies from nutrition facts. Users input their allergies into their profile, and take or upload a photo of a food's ingredients. The app will then highlight any instances of potential risks. The app uses Flutter for frontend and access to camera, Firebase for user profiles, and Flask with Google Cloud Vision API for Opticl Character Recognition (OCR).\n\nI worked on the backend in Flask, utilizing Google Cloud Vision API to extracting text from images and drawing highlights around indicated ingredients.",
+        "description": "AlleScan is a mobile app that highlights specified allergies from nutrition facts. Users input their allergies into their profile, and take or upload a photo of a food's ingredients. The app will then highlight any instances of potential risks. The app uses Flutter for frontend and access to camera, Firebase for user profiles, and Flask with Google Cloud Vision API for Optical Character Recognition (OCR).\n\nI worked on the backend in Flask, utilizing Google Cloud Vision API to extracting text from images and drawing highlights around indicated ingredients.",
         "tags": ["Dart", "JavaScript", "Flutter", "Firebase", "Flask", "Google Cloud Vision API"],
         "logo": "",
         "images": ["/images/allescanlogo.png", "/images/allescan.png"],
@@ -128,12 +130,13 @@
         "id": "gamepigeon",
         "title": "Game Pigeon Tournament",
         "creationDate": "August 2021",
-        "description": "MuseScore is a site that hosts free sheet music. With this program, users enter in a valid MuseScore URL, and the webdriver will scrape the page and save the sheet music to a PDF for later use. MuseScore only loads pages actively on the screen, so the Pynput, PyAutoGUI, and PIL libraries are used to automatically scroll through and the Selenium Webdriver inspects the HTML to extract pages as PDFs.",
+        "description": "This project was part of a GamePigeon tournament I hosted for the SCU 2025 Discord Server. GamePigeon is a collection of minigames like Darts, Connect 4, and 8 Ball that can be played through iMessage. I organized the tournament from getting people to sign up, writing the rules and spreadsheet, and organizing matches. I used Google Forms to have people submit match results and used Google AppScript (which closely resembles JavaScript) to automate score calculation and spreadsheet population.",
         "tags": ["AppScript"],
         "logo": "",
         "images": ["/images/gamepigeon.png"],
         "links": {
-            "GitHub": "https://github.com/WinbertZhang/MusescoreToPDF"
+            "Rules Document": "https://docs.google.com/document/d/151hZJydQ8DBo6wooefMQtudZDn3ekHQJEslL2tVE0to/edit?usp=sharing",
+            "Spreadsheet": "https://docs.google.com/spreadsheets/d/14_9YJz64Pps0P4BLefLUM89k6q7VB6gAbe5gPxWEo_I/edit?usp=sharing"
         }
     }
 ]

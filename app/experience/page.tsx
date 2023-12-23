@@ -4,8 +4,10 @@ import Image from "next/image";
 import NavBar from "../../components/navbar";
 import { motion } from "framer-motion";
 import experienceData from './experience.json'; // Importing data from JSON file
+import detailedExperienceData from './experience-detailed.json';
 
 interface Experience {
+  id: string;
   company: string;
   role: string;
   category: string;
@@ -20,6 +22,24 @@ interface ExperienceTagProps {
   onClick: (name: string) => void;
 }
 
+interface DetailedExperience {
+  id: string;
+  title: string;
+  description: string;
+  image: string;
+}
+
+interface PopupProps {
+  data: DetailedExperience | null;
+  onClose: () => void;
+  isVisible: boolean;
+}
+
+const fadeInVariants = {
+  initial: { opacity: 0, y: 20 },
+  animate: { opacity: 1, y: 0 },
+};
+
 const ExperienceTag: React.FC<ExperienceTagProps> = ({ name, isSelected, onClick }) => (
   <button
     className={`px-4 py-2 rounded-full text-gray-300 border border-2 ${isSelected ? "border-blue-500" : "border-gray-500 hover:border-white"}`}
@@ -29,9 +49,35 @@ const ExperienceTag: React.FC<ExperienceTagProps> = ({ name, isSelected, onClick
   </button>
 );
 
-const fadeInVariants = {
-  initial: { opacity: 0, y: 20 },
-  animate: { opacity: 1, y: 0 },
+const Popup: React.FC<PopupProps> = ({ data, onClose, isVisible }) => {
+  if (!isVisible || !data) return null;
+
+  const handleClickOutside = (event: React.MouseEvent) => {
+    if (event.target === event.currentTarget) {
+      onClose();
+    }
+  };
+
+  return (
+    <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center p-4 z-50" onClick={handleClickOutside}>
+      <div 
+        className="bg-gradient-to-t from-gray-900 to-black p-6 rounded-lg w-full md:w-1/2 h-5/6 overflow-auto relative border border-gray-500 mx-auto" 
+        onClick={(e) => e.stopPropagation()}
+      >
+        <button onClick={onClose} className="absolute top-2 right-2 text-lg">X</button>
+        <h2 className="text-2xl font-bold mb-2">{data.title}</h2>
+        <p>{data.description}</p>
+        <Image
+          src={data.image}
+          alt={data.title}
+          width={128} 
+          height={128}
+          quality={100}
+          layout="intrinsic"
+        />
+      </div>
+    </div>
+  );
 };
 
 const ExperienceSection: React.FC = () => {
@@ -44,10 +90,29 @@ const ExperienceSection: React.FC = () => {
     setCategory(newCategory);
   };
 
+  const [showPopup, setShowPopup] = useState<boolean>(false);
+  const [selectedExperience, setSelectedExperience] = useState<DetailedExperience | null>(null);
+
+  const handleExperienceClick = (exp: Experience) => {
+    const detailedData = detailedExperienceData.find(d => d.id === exp.id);
+    if (!detailedData) {
+      setShowPopup(false); 
+      return;
+    }
+    setSelectedExperience(detailedData);
+    setShowPopup(true);
+  };
+
+  const handleClosePopup = () => {
+    setShowPopup(false);
+    setSelectedExperience(null);
+  };
+
   return (
     <div>
       <NavBar/>
       <div className="flex flex-col items-center min-h-screen bg-gradient-to-t from-gray-900 to-black text-white">
+        <Popup data={selectedExperience} onClose={handleClosePopup} isVisible={showPopup} />
         <main className="container mx-auto px-8 md:px-10 lg:px-12 xl:px-16 drop-shadow-xl mb-10">
           <h1 className="text-center text-5xl font-bold mb-8 mt-14">Experience</h1>
           <p className="text-center text-gray-400">I&apos;m actively searching for entry-level software engineer roles starting January 2025.</p>
@@ -78,6 +143,7 @@ const ExperienceSection: React.FC = () => {
             {filteredExperience.map((exp, index) => (
               <motion.li 
                 key={index} 
+                onClick={() => handleExperienceClick(exp)}
                 className="flex flex-col md:flex-row items-center gap-4 mx-auto rounded-lg border border-transparent w-full h-full px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
                 variants={fadeInVariants}
                 initial="initial"

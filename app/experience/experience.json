@@ -1,5 +1,6 @@
 [
   {
+    "id": "microsoft",
     "company": "Microsoft",
     "role": "Incoming Software Engineer Intern (Summer 2024)",
     "category": "Professional",
@@ -8,6 +9,7 @@
     "companylogo": "/images/microsoftlogo.png"
   },
   {
+    "id": "roche",
     "company": "Roche",
     "role": "Software Engineer Intern",
     "category": "Professional",
@@ -16,6 +18,7 @@
     "companylogo": "/images/rochelogo.png"
   },
   {
+    "id": "intel",
     "company": "Intel",
     "role": "Software Engineer Intern",
     "category": "Professional",
@@ -24,6 +27,7 @@
     "companylogo": "/images/intellogo.png"
   },
   {
+    "id": "scuacm",
     "company": "SCU ACM",
     "role": "Board Member",
     "category": "Leadership",
@@ -32,6 +36,7 @@
     "companylogo": "/images/acmlogo.png"
   },
   {
+    "id": "acf",
     "company": "Applied Computing Foundation",
     "role": "Startup Coach, Instructor",
     "category": "Leadership",
@@ -40,6 +45,7 @@
     "companylogo": "/images/acflogo.png"
   },
   {
+    "id": "teamscode",
     "company": "TeamsCode",
     "role": "Executive Vice President",
     "category": "Leadership",
@@ -48,6 +54,7 @@
     "companylogo": "/images/tclogo.png"
   },
   {
+    "id": "usaco",
     "company": "USACO",
     "role": "Gold Division Contestant",
     "category": "Other",
@@ -56,6 +63,7 @@
     "companylogo": "/images/usacologo.webp"
   },
   {
+    "id": "xcamp",
     "company": "X-Camp Academy",
     "role": "Software Developer Intern",
     "category": "Professional",
@@ -64,6 +72,7 @@
     "companylogo": "/images/xcamplogo.png"
   },
   {
+    "id": "stemboost",
     "company": "STEMBoost",
     "role": "CS Division Lead",
     "category": "Leadership",
@@ -72,6 +81,7 @@
     "companylogo": "/images/stemboostlogo.png"
   },
   {
+    "id": "cosmos",
     "company": "COSMOS UCSC",
     "role": "Summer Program Participant",
     "category": "Other",
@@ -80,6 +90,7 @@
     "companylogo": "/images/cosmoslogo.png"
   },
   {
+    "id": "mvrt",
     "company": "MVRT",
     "role": "Software Team",
     "category": "Other",
