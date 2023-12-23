@@ -1,9 +1,10 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import NavBar from "../../components/navbar";
 import { motion } from "framer-motion";
-import experienceData from './experience.json'; // Importing data from JSON file
+import ReactMarkdown from "react-markdown";
+import experienceData from './experience.json';
 import detailedExperienceData from './experience-detailed.json';
 
 interface Experience {
@@ -24,8 +25,10 @@ interface ExperienceTagProps {
 
 interface DetailedExperience {
   id: string;
+  company: string;
   title: string;
   description: string;
+  logo: string;
   image: string;
 }
 
@@ -50,31 +53,58 @@ const ExperienceTag: React.FC<ExperienceTagProps> = ({ name, isSelected, onClick
 );
 
 const Popup: React.FC<PopupProps> = ({ data, onClose, isVisible }) => {
-  if (!isVisible || !data) return null;
+  const [isAnimating, setIsAnimating] = useState(false);
 
-  const handleClickOutside = (event: React.MouseEvent) => {
-    if (event.target === event.currentTarget) {
-      onClose();
-    }
+  useEffect(() => {
+    if (isVisible) setIsAnimating(true);
+  }, [isVisible]);
+
+  const handleClose = () => {
+    setIsAnimating(false);
+    setTimeout(() => onClose(), 150); // Close after the animation duration
   };
 
+  const handleClickOutside = (event: React.MouseEvent) => {
+    if (event.target === event.currentTarget) handleClose();
+  };
+
+  if (!isVisible && !isAnimating) return null;
+  if (!data) return null;
+
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center p-4 z-50" onClick={handleClickOutside}>
-      <div 
-        className="bg-gradient-to-t from-gray-900 to-black p-6 rounded-lg w-full md:w-1/2 h-5/6 overflow-auto relative border border-gray-500 mx-auto" 
-        onClick={(e) => e.stopPropagation()}
-      >
-        <button onClick={onClose} className="absolute top-2 right-2 text-lg">X</button>
-        <h2 className="text-2xl font-bold mb-2">{data.title}</h2>
-        <p>{data.description}</p>
-        <Image
-          src={data.image}
-          alt={data.title}
-          width={128} 
-          height={128}
-          quality={100}
-          layout="intrinsic"
-        />
+    <div className="fixed inset-0 bg-black bg-opacity-50 text-black flex justify-center items-center py-14 px-4 z-50" onClick={handleClickOutside}>
+      <div className={`p-6 rounded-lg h-full w-full md:w-5/12 bg-gradient-to-t from-gray-900 to-black text-white border border-gray-700 overflow-auto relative 
+      flex flex-col justify-center items-center transition-all duration-150 ${isAnimating ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}`}>
+        <button onClick={handleClose} className="absolute top-2 right-2 text-lg">X</button>
+        <div className="w-1/2 h-1/2 flex items-center justify-center mb-2">
+          <Image
+            src={data.image}
+            alt={data.title}
+            width={500}
+            height={500}
+            quality={100}
+          />
+        </div>
+        <div className="flex items-center">
+          <h2 className="text-xl md:text-2xl font-bold mb-1 mr-2">{data.company}</h2> 
+          <div className="flex-shrink-0 w-8 h-8"> 
+            <Image
+              src={data.logo}
+              alt="Logo"
+              layout="responsive"
+              width={24}
+              height={24}
+            />
+          </div>
+        </div>
+        <h2 className="text-lg md:text-xl mb-3">{data.title}</h2>
+        <hr className="w-full border-t border-gray-500 mb-5" />
+        <ReactMarkdown components={{
+          p: ({ node, ...props }) => (
+            <p className="mb-4 mx-2 text-sm md:text-base" {...props} />
+          ),
+        }}>{data.description}
+        </ReactMarkdown>
       </div>
     </div>
   );
@@ -157,7 +187,6 @@ const ExperienceSection: React.FC = () => {
                     width={128}
                     height={128}
                     quality={100}
-                    layout="responsive"
                   />
                 </div>
                 <div className="flex-grow" style={{ minWidth: '200px' }}> {/* Fixed width */}

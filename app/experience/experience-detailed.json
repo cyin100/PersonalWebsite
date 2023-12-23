@@ -1,9 +1,51 @@
 [
     {
-      "id": "roche",
-      "title": "Roche SWE",
-      "description": "DevOps/Cloud engineering for Roche Information Solutions",
-      "image": "/images/roche.jpg"
+        "id": "roche",
+        "company": "Roche Diagnostics",
+        "title": "Cloud Software Engineer Intern",
+        "description": "I worked under Roche Information Solutions (RIS) under the Provider Insights Cloud team, which aims to host and deploy user-facing diagnostic applications on the cloud.\n\nFor my project, I created dashboards with Zabbix to monitor usage and costs for our applications on Amazon Web Services (AWS). Using Python and Bash scripts, I automated scheduled and triggered email alerts containing detailed analytics, saving the cloud team thousands of dollars and streamlining DevOps workflow.",
+        "logo": "/images/rochelogo.png",
+        "image": "/images/roche.jpg"
+    },
+    {
+        "id": "intel",
+        "company": "Intel",
+        "title": "Full-Stack Software Engineer Intern",
+        "description": "I worked under Intel NAND-DTM under the Capability & Analytics group, which aims to support Intel's NAND memory development by providing the company with analytics.\n\nI worked on several projects: prototyping a data pipeline editor via LAMP stack (Linux, Apache, MariaDB, PHP) to support development. I also worked on asset tracker and query editor interface, where users can import and modify datasets and run SQL queries. Features also included version control, comparisons, and permissions, which helped improve data workflow for 50+ engineers.",
+        "logo": "/images/intellogo.png",
+        "image": "/images/intel.jpg"
+    },
+    {
+        "id": "microsoft",
+        "company": "Microsoft",
+        "title": "Incoming Software Engineer Intern",
+        "description": "I'm an incoming software engineer intern at Microsoft next summer (June - September 2024) at their main campus in Redmond, Washington. If you're also going to be an intern in Redmond/Seattle this summer, please reach out over email or LinkedIn - I'd love to connect!",
+        "logo": "/images/microsoftlogo.png",
+        "image": "/images/microsofthq.jpg"
+    },
+    {
+        "id": "scuacm",
+        "company": "SCU ACM",
+        "title": "Workshop/Outreach Coordinator, ICPC President",
+        "description": "I'm a board member of SCU's Association for Computing Machinery chapter. I've taught workshops in Python, JavaScript, Flask, Git, organized class visits, socials, and hackathons with over 300 participants.\n\nI also founded our Competitive Programming branch, where I host weekly DSA (Data Structures & Algorithms) lectures and plan logistics for getting members to in-person and online programming competitions including the ACM ICPC (International Collegiate Programming Contest).",
+        "logo": "/images/acmlogo.png",
+        "image": "/images/acm.jpg"
+    },
+    {
+        "id": "cosmos",
+        "company": "COSMOS UCSC",
+        "title": "Summer Program Participant",
+        "description": "I participated in a highly-selective STEM Summer Program at UC Santa Cruz. In the *Video Game Design: From Concept to Code* cluster, my cohort learned about game design principles and several different game development engines. For our final project, I worked in a team to develop a game using the Godot engine called *Contrast*, a top-down RPG where the player can swap between light and dark to solve puzzles and uncover lore.",
+        "logo": "/images/cosmoslogo.png",
+        "image": "/images/acm.jpg"
+    },
+    {
+        "id": "mvrt",
+        "company": "Monta Vista Robotics Team (MVRT)",
+        "title": "Software Team Member",
+        "description": "I was a part of my high school's robotics team competing in the First Robotics Competition (FRC). For the *DESTINATION: DEEP SPACE* game, teams were tasked with building robots to carry balls (cargo) and lifting them into holes (rockets). I was primarily responsible for working on the DriveTrain code in Java, which makes the robot move.",
+        "logo": "/images/mvrtlogo.png",
+        "image": "/images/mvrt.webp"
     }
-  ]
+]
   
