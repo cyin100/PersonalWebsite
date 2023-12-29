@@ -5,7 +5,8 @@
         "title": "Cloud Software Engineer Intern",
         "description": "I worked under Roche Information Solutions (RIS) under the Provider Insights Cloud team, which aims to host and deploy user-facing diagnostic applications on the cloud.\n\nFor my project, I created dashboards with Zabbix to monitor usage and costs for our applications on Amazon Web Services (AWS). Using Python and Bash scripts, I automated scheduled and triggered email alerts containing detailed analytics, saving the cloud team thousands of dollars and streamlining DevOps workflow.",
         "logo": "/images/rochelogo.png",
-        "image": "/images/roche.jpg"
+        "image": "/images/roche.jpg",
+        "website": "https://roche.com"
     },
     {
         "id": "intel",
@@ -32,16 +33,40 @@
         "image": "/images/acm.jpg"
     },
     {
+        "id": "xcamp",
+        "company": "X-Camp Academy",
+        "title": "Software Developer Intern",
+        "description": "",
+        "logo": "/images/xcamplogo.png",
+        "image": "/images/xcamp.jpg"
+    },
+    {
+        "id": "acf",
+        "company": "Applied Computing Foundation",
+        "title": "Startup Coach, Instructor",
+        "description": "",
+        "logo": "/images/acmlogo.png",
+        "image": "/images/acm.jpg"
+    },
+    {
         "id": "cosmos",
         "company": "COSMOS UCSC",
         "title": "Summer Program Participant",
         "description": "I participated in a highly-selective STEM Summer Program at UC Santa Cruz. In the *Video Game Design: From Concept to Code* cluster, my cohort learned about game design principles and several different game development engines. For our final project, I worked in a team to develop a game using the Godot engine called *Contrast*, a top-down RPG where the player can swap between light and dark to solve puzzles and uncover lore.",
         "logo": "/images/cosmoslogo.png",
-        "image": "/images/acm.jpg"
+        "image": "/images/cosmos.jpg"
+    },
+    {
+        "id": "usaco",
+        "company": "USA Computing Olympiad",
+        "title": "Gold Division Contestant",
+        "description": "USACO is a pre-collegiate programming competition divided into Bronze, Silver, Gold, and Platinum divisions. Competitors promote after earning a high enough score in the previous division. I earned a perfect score in the Bronze Division December 2018 contest and the Silver Division January 2019 contest.",
+        "logo": "/images/usacologo.webp",
+        "image": "/images/cosmos.jpg"
     },
     {
         "id": "mvrt",
-        "company": "Monta Vista Robotics Team (MVRT)",
+        "company": "Monta Vista Robotics Team",
         "title": "Software Team Member",
         "description": "I was a part of my high school's robotics team competing in the First Robotics Competition (FRC). For the *DESTINATION: DEEP SPACE* game, teams were tasked with building robots to carry balls (cargo) and lifting them into holes (rockets). I was primarily responsible for working on the DriveTrain code in Java, which makes the robot move.",
         "logo": "/images/mvrtlogo.png",

@@ -6,7 +6,7 @@ export default function Home() {
     <div>
       <NavBar/>
       
-      <div className="flex flex-col items-center min-h-screen bg-gradient-to-t from-gray-900 text-white">
+      <div className="flex flex-col items-center min-h-screen bg-gradient-to-t from-gray-900 to-black text-white">
         <main className="container mx-auto px-6 text-center drop-shadow-xl">
           <div className="rounded-full overflow-hidden w-40 h-40 mx-auto mb-6 mt-14">
             <Image

@@ -174,7 +174,7 @@ const ExperienceSection: React.FC = () => {
               <motion.li 
                 key={index} 
                 onClick={() => handleExperienceClick(exp)}
-                className="flex flex-col md:flex-row items-center gap-4 mx-auto rounded-lg border border-transparent w-full h-full px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+                className="flex flex-col md:flex-row items-center gap-4 mx-auto rounded-lg border border-transparent w-full h-full px-5 py-4 transition-colors hover:border-neutral-700 hover:bg-neutral-800/30"
                 variants={fadeInVariants}
                 initial="initial"
                 animate="animate"

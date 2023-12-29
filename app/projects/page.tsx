@@ -37,7 +37,7 @@ export default function Home() {
               <motion.a
                 key={project.id}
                 href={`/projects/${project.id}`}
-                className="mx-auto group flex flex-col justify-center items-center rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 sm:items-start sm:text-left"
+                className="mx-auto group flex flex-col justify-center items-center rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-neutral-700 hover:bg-neutral-800/30 sm:items-start sm:text-left"
                 rel="noopener noreferrer"
                 variants={fadeInVariants} // Use the fadeInVariants for animation
                 initial="initial"
