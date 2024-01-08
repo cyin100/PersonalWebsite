@@ -20,7 +20,7 @@ export default function Home() {
 
           <h1 className="text-5xl font-bold">
             <span className="bg-gradient-name bg-clip-text text-transparent">Hello, I&apos;m </span>
-            <span>Conner Yin</span>
+            <span className="">Conner Yin</span>
           </h1>
           <p className="text-gray-400 mt-4">I&apos;m a software engineer currently studying at Santa Clara University. Have a look around to see what I&apos;ve been up to!</p>
           <div className="flex justify-center mt-6 space-x-4">

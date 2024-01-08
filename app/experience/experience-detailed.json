@@ -1,5 +1,21 @@
 [
     {
+        "id": "microsoft",
+        "company": "Microsoft",
+        "title": "Incoming Software Engineer Intern",
+        "description": "I'm an incoming software engineer intern at Microsoft next summer (June - September 2024) at their main campus in Redmond, Washington. If you're also going to be an intern in Redmond/Seattle this summer, please reach out over email or LinkedIn - I'd love to connect!",
+        "logo": "/images/microsoftlogo.png",
+        "image": "/images/microsofthq.jpg"
+    },
+    {
+        "id": "scuacm",
+        "company": "SCU ACM",
+        "title": "Workshop/Outreach Coordinator, ICPC President",
+        "description": "I'm a board member of SCU's Association for Computing Machinery chapter. I've taught workshops in Python, JavaScript, Flask, Git, organized class visits, socials, and hackathons with over 300 participants.\n\nI also founded our Competitive Programming branch, where I host weekly DSA (Data Structures & Algorithms) lectures and plan logistics for getting members to in-person and online programming competitions including the ACM ICPC (International Collegiate Programming Contest).",
+        "logo": "/images/acmlogo.png",
+        "image": "/images/acm.jpg"
+    },
+    {
         "id": "roche",
         "company": "Roche Diagnostics",
         "title": "Cloud Software Engineer Intern",
@@ -17,36 +33,36 @@
         "image": "/images/intel.jpg"
     },
     {
-        "id": "microsoft",
-        "company": "Microsoft",
-        "title": "Incoming Software Engineer Intern",
-        "description": "I'm an incoming software engineer intern at Microsoft next summer (June - September 2024) at their main campus in Redmond, Washington. If you're also going to be an intern in Redmond/Seattle this summer, please reach out over email or LinkedIn - I'd love to connect!",
-        "logo": "/images/microsoftlogo.png",
-        "image": "/images/microsofthq.jpg"
-    },
-    {
-        "id": "scuacm",
-        "company": "SCU ACM",
-        "title": "Workshop/Outreach Coordinator, ICPC President",
-        "description": "I'm a board member of SCU's Association for Computing Machinery chapter. I've taught workshops in Python, JavaScript, Flask, Git, organized class visits, socials, and hackathons with over 300 participants.\n\nI also founded our Competitive Programming branch, where I host weekly DSA (Data Structures & Algorithms) lectures and plan logistics for getting members to in-person and online programming competitions including the ACM ICPC (International Collegiate Programming Contest).",
+        "id": "acf",
+        "company": "Applied Computing Foundation",
+        "title": "Startup Coach, Instructor",
+        "description": "I mentored a team of high school students to launch a startup product *BerriBasket.com*, an online farmers' marketplace web application, by their cultivating skills in market research, product design, and website development. The project won the 2022 Congressional App Challenge for California's 17th district.\n\nI also taught an in-person Python with Minecraft camp, instructed a 12-week Java APCS course, and provided 1-on-1 tutoring to several students in Python.",
         "logo": "/images/acmlogo.png",
-        "image": "/images/acm.jpg"
+        "image": "/images/acf.jpg"
     },
     {
         "id": "xcamp",
         "company": "X-Camp Academy",
         "title": "Software Developer Intern",
-        "description": "",
+        "description": "X-Camp Academy is an international coding school. I helped developed *X-Wizard*, their new Learning Management System (LMS), and maintained the X-Camp website, both built with Vue and Java Spring. On the backend, I managed student and course data with PHPMyAdmin MySQL and internal REST APIs.\n\nI also set up AWS EC2 cron jobs to run python scripts utilizing Google Sheets and Gmail APIs to automate homework grading and emails to 100+ families.",
         "logo": "/images/xcamplogo.png",
         "image": "/images/xcamp.jpg"
     },
     {
-        "id": "acf",
-        "company": "Applied Computing Foundation",
-        "title": "Startup Coach, Instructor",
-        "description": "",
-        "logo": "/images/acmlogo.png",
-        "image": "/images/acm.jpg"
+        "id": "teamscode",
+        "company": "TeamsCode",
+        "title": "Executive Vice President",
+        "description": "TeamsCode, based in Washington, hosts in-person and online programming competitions. I helped start the California branch, where I wrote 15 algorithmic problems, found sponsors, and organized logistics to host our first in-person contest with 35+ participants.\n\nDuring the pandemic, I spearheaded the transition to online including producing promotional videos and our livestream. As the Executive VP, I managed 17 organizers and hosted 4 competitions with 250-350 participants each.",
+        "logo": "/images/tclogo.png",
+        "image": "/images/tc.jpg"
+    },
+    {
+        "id": "stemboost",
+        "company": "STEMBoost",
+        "title": "Computer Science Division Lead",
+        "description": "STEMBoost is a non-profit founded by Kennedy Middle School Science Olympiad Alumni to raise money for charity by teaching STEM workshops. I designed curriculums and taught Java Programming, Movie Editing, and Mental Math workshops, raising $3,700 during the pandemic to donate to local hospitals for COVID-19 relief. I also helped TA and review curriculum for other Computer Science workshops.",
+        "logo": "/images/stemboostlogo.png",
+        "image": "/images/stemboost.jpg"
     },
     {
         "id": "cosmos",
