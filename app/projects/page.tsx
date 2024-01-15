@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import React from 'react';
 import NavBar from '../../components/navbar';
+import Footer from '../../components/footer';
 import projectsData from './projects.json'; // Update the path
 import { motion } from 'framer-motion'; // Import motion from framer-motion
 
@@ -64,6 +65,7 @@ export default function Home() {
           })}
         </div>
       </main>
+      <Footer/>
     </div>
   );
 }

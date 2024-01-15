@@ -2,6 +2,7 @@ import { useRouter } from 'next/router';
 import React, { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
 import NavBar from '../../components/navbar';
+import Footer from '@/components/footer';
 import Image from 'next/image';
 import projectsData from '../../app/projects/projects-detailed.json';
 
@@ -48,7 +49,13 @@ const ProjectPage = () => {
     <div className="bg-gradient-to-t from-gray-900 to-black min-h-screen">
       <NavBar />
       <div className="flex flex-col min-h-screen text-white overflow-y-hidden">
-        <main className="container mx-auto px-6 py-8 md:flex md:flex-col lg:flex-row md:items-start md:justify-between sm:mt-12 mb-30">
+        <div className="flex items-center ml-4 sm:ml-24 mt-6 text-xl">
+          <a href="/projects" className="text-gray-400 hover:text-white flex items-center gap-2 group">
+            <span className="transform group-hover:translate-x-[-5px] transition-transform">←</span>
+            Projects
+          </a>
+        </div>
+        <main className="container mx-auto px-6 py-8 md:flex md:flex-col lg:flex-row md:items-start md:justify-between mb-30">
           <div className="flex flex-col lg:flex-row mx-4 sm:mx-24">
             {/* Left Side: Title, Logo, Text */}
             <div className="flex flex-col flex-grow mb-6 lg:mb-0 lg:basis-8/12 xl:basis-8/12 mr-4 w-full">
@@ -107,9 +114,12 @@ const ProjectPage = () => {
                 </div>
               ))}
             </div>
+
+
           </div>
         </main>
       </div>
+      <Footer/>
     </div>
   );
 };
