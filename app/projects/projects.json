@@ -1,9 +1,15 @@
 [
     {
+      "id": "tripsitter",
+      "title": "Tripsitter",
+      "description": "A web app to help guide users through a bad trip",
+      "image": "/images/tripsitter.png"
+    },
+    {
       "id": "voluntarius",
       "title": "Voluntarius",
       "description": "Connecting volunteers and those in need",
-      "image": "/images/voluntarius.jpg"
+      "image": "/images/voluntarius.png"
     },
     {
       "id": "human-benchmark-bot",

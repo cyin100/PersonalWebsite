@@ -13,6 +13,7 @@ type ProjectDetailsType = {
   description: string;
   tags?: string[];
   logo?: string | null;
+  youtube?: string | null;
   images?: string[];
   links: {
     [key: string]: string;
@@ -101,6 +102,21 @@ const ProjectPage = () => {
 
             {/* Right Side: Image Gallery */}
             <div className="flex flex-col flex-grow lg:basis-4/12 xl:basis-4/12">
+              {projectDetails.youtube && (
+                <div className="aspect-video mb-4">
+                  <div className="w-full h-full">
+                    <iframe
+                      width="100%"
+                      height="100%"
+                      src={`https://www.youtube.com/embed/${projectDetails.youtube}`}
+                      title={`${projectDetails.title} video`}
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                      className="rounded-lg"
+                    ></iframe>
+                  </div>
+                </div>
+              )}
               {projectDetails.images?.map((image, index) => (
                 <div key={index} className="w-full max-h-[300px] mb-4">
                   <Image
