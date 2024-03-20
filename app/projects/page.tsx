@@ -55,7 +55,17 @@ export default function Home() {
                   />
                 </div>
                 <h2 className="mb-3 text-2xl font-semibold text-center">
-                  {project.title} <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">-&gt;</span>
+                  {project.title} 
+                  <span>  </span>
+                  <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+                    <Image
+                      src={project.logo}
+                      alt={project.title}
+                      width={20}
+                      height={20}
+                      quality={100}
+                    />
+                  </span>
                 </h2>
                 <p className="m-0 max-w-[30ch] text-sm opacity-50">
                   {project.description}

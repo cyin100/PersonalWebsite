@@ -3,73 +3,84 @@
       "id": "tripsitter",
       "title": "Tripsitter",
       "description": "Your one stop shop for all things travel",
-      "image": "/images/tripsitter.png"
+      "image": "/images/tripsitter.png",
+      "logo": "/images/tripsitterlogo.png"
     },
     {
       "id": "voluntarius",
       "title": "Voluntarius",
       "description": "Connecting volunteers and those in need",
-      "image": "/images/voluntarius.png"
+      "image": "/images/voluntarius.png",
+      "logo": "/images/voluntariuslogo.png"
     },
     {
       "id": "human-benchmark-bot",
       "title": "Human Benchmark Bot",
       "description": "Produce superhuman scores on the Human Benchmark Tests",
-      "image": "/images/humanbenchmark.gif"
+      "image": "/images/humanbenchmark.gif",
+      "logo": "/images/humanbenchmarklogo.png"
     },
     {
       "id": "game-plan",
       "title": "Game Plan",
       "description": "Generate day trip plans based off time and location",
-      "image": "/images/gameplan.png"
+      "image": "/images/gameplan.png",
+      "logo": "/images/gameplanlogo.jpg"
     },
     {
       "id": "undertale-file-loader",
       "title": "Undertale File Loader",
       "description": "Load various save files for Undertale and Deltarune",
-      "image": "/images/undertale.jpg"
+      "image": "/images/undertale.jpg",
+      "logo": "/images/undertalelogo.png"
     },
     {
       "id": "personal-website",
       "title": "Personal Website",
       "description": "The site you're currently on! Learn about how I made it here.",
-      "image": "/images/newsite.png"
+      "image": "/images/newsite.png",
+      "logo": "/images/personalsitelogo.png"
     },
     {
       "id": "allescan",
       "title": "AlleScan",
       "description": "Scan nutritional facts to highlight your allergies",
-      "image": "/images/allescanlogo.png"
+      "image": "/images/allescanlogo.png",
+      "logo": "/images/allescanlogo.png"
     },
     {
       "id": "scu-coen",
       "title": "SCU COEN Labs",
       "description": "Collection of my Computer Science & Engineering work at SCU",
-      "image": "/images/scu.jpg"
+      "image": "/images/scu.jpg",
+      "logo": "/images/sculogo.png"
     },
     {
       "id": "wordle-helper",
       "title": "Wordle Helper",
       "description": "Prints out possible remaining words for Wordle",
-      "image": "/images/wordle.png"
+      "image": "/images/wordle.png",
+      "logo": "/images/wordlelogo.webp"
     },
     {
       "id": "portfolio-site",
       "title": "Portfolio Site",
       "description": "Previous version of my portfolio, built with React.js and Tailwind CSS",
-      "image": "/images/oldportfolio.png"
+      "image": "/images/oldportfolio.png",
+      "logo": "/images/personalsitelogo.png"
     },
     {
       "id": "gamepigeon",
       "title": "GamePigeon Tourney",
       "description": "Hosting tournament for the SCU 2025 Discord server through Google Sheets",
-      "image": "/images/gamepigeon.png"
+      "image": "/images/gamepigeon.png",
+      "logo": "/images/gamepigeonlogo.png"
     },
     {
       "id": "musescore-to-pdf",
       "title": "MusescoreToPDF",
       "description": "Save sheet music from MuseScore as PDF",
-      "image": "/images/musescore.png"
+      "image": "/images/musescore.png",
+      "logo": "/images/musescorelogo.png"
     }
 ]
-  
