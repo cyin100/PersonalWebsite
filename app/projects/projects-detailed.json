@@ -10,7 +10,8 @@
         "youtube": "Zlpp4q-L4r8",
         "links": {
             "GitHub": "https://github.com/CSEN-SCU/csen-174-w24-project-tripsitter",
-            "Live Site": "https://tripsitter-travel.web.app/"
+            "Live Site": "https://tripsitter-travel.web.app/",
+            "Slideshow": "/files/TripsitterPresentation.pdf"
         }
     },
     {
@@ -25,7 +26,8 @@
         "links": {
             "GitHub": "https://github.com/jordanmosakowski/voluntarius",
             "DevPost": "https://devpost.com/software/redacted-lx52yk",
-            "Live Site": "https://voluntarius-h4h.web.app/"
+            "Live Site": "https://voluntarius-h4h.web.app/",
+            "Slideshow": "/files/VoluntariusPresentation.pdf"
         }
     },
     {
@@ -51,7 +53,8 @@
         "images": ["/images/gameplan.png"],
         "links": {
             "GitHub": "https://github.com/rukasuamarike/game-plan",
-            "DevPost": "https://devpost.com/software/gameplan"
+            "DevPost": "https://devpost.com/software/gameplan",
+            "Slideshow": "/files/GamePlanPresentation.pdf"
         }
     },
     {

@@ -79,7 +79,7 @@ const ProjectPage = () => {
                 {Object.entries(projectDetails.links).map(([key, url], index, array) => (
                   <span key={index}>
                     <a href={url} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 md:text-lg">{key}</a>
-                    {index < array.length - 1 && ' | '}
+                    {index < array.length - 1 && '  |  '}
                   </span>
                 ))}
               </div>

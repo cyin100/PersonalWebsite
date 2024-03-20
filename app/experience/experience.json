@@ -14,8 +14,17 @@
     "role": "Board Member",
     "category": "Leadership",
     "period": "April 2022 - Present",
-    "description": "Workshop/Outreach coordinator, Competitive Programming (ICPC) President",
+    "description": "Workshop/Outreach coordinator",
     "companylogo": "/images/acmlogo.png"
+  },
+  {
+    "id": "compprog",
+    "company": "SCU Competitive Programming Club",
+    "role": "President & Founder",
+    "category": "Leadership",
+    "period": "April 2023 - Present",
+    "description": "Lead ICPC training, host competitive programming workshops and contests",
+    "companylogo": "/images/cpclogo.png"
   },
   {
     "id": "roche",

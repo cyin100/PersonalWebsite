@@ -11,9 +11,17 @@
         "id": "scuacm",
         "company": "SCU ACM",
         "title": "Workshop/Outreach Coordinator, ICPC President",
-        "description": "I'm a board member of SCU's Association for Computing Machinery chapter. I've taught workshops in Python, JavaScript, Flask, Git, organized class visits, socials, and hackathons with over 300 participants.\n\nI also founded our Competitive Programming branch, where I host weekly DSA (Data Structures & Algorithms) lectures and plan logistics for getting members to in-person and online programming competitions including the ACM ICPC (International Collegiate Programming Contest).",
+        "description": "I'm a board member of SCU's Association for Computing Machinery chapter, serving as the Workshop Coordinator (2022-2023) and Outreach Coordinator (2023-2024). I've taught workshops in Python, JavaScript, Flask, Git, organized class visits, socials, and hackathons with over 300 participants.\n\nUnder my leadership, ACM and its subclubs now host 6-8 events per week, ranging in topics from AI, cybersecurity, professional development, equality in tech, and more. We've quickly become the largest student organization on campus, serving SCU's Computer Science community.",
         "logo": "/images/acmlogo.png",
         "image": "/images/acm.jpg"
+    },
+    {
+        "id": "compprog",
+        "company": "SCU Competitive Programming Club",
+        "title": "President & Founder",
+        "description": "I founded SCU ACM's competitive programming club, where I host weekly DSA (Data Structures & Algorithms) workshops, mock technical interviews, and plan logistics for and write problems for our very own quarterly in-person coding competitions.\n\nI helped register and train our members to attend the ICPC (International Collegiate Programming Contest), one of the most prestigious collegiate coding competitions. This was the first time SCU has ever sent any teams to the ICPC. ",
+        "logo": "/images/cpclogo.png",
+        "image": "/images/icpc.jpg"
     },
     {
         "id": "roche",
