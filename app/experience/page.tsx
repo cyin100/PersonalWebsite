@@ -145,7 +145,18 @@ const ExperienceSection: React.FC = () => {
       <div className="flex flex-col items-center min-h-screen bg-gradient-to-t from-gray-900 to-black text-white">
         <Popup data={selectedExperience} onClose={handleClosePopup} isVisible={showPopup} />
         <main className="container mx-auto px-8 md:px-10 lg:px-12 xl:px-16 drop-shadow-xl mb-10">
-          <h1 className="text-center text-5xl font-bold mb-8 mt-14">Experience</h1>
+          <h1 className="text-center text-5xl font-bold mb-8 mt-14">
+            <span>Experience </span>
+            <span className="inline-block">
+              <Image
+                  src="/icons/linkedin.svg"
+                  alt="Experience"
+                  width={40}
+                  height={40}
+                  quality={100}
+              />
+            </span>
+          </h1>
           <p className="text-center text-gray-400">I&apos;m actively searching for entry-level software engineer roles starting January 2025.</p>
           <p className="text-center text-gray-400">Interested in hiring me? View my <a href="/files/resume.pdf" target="_blank" className="underline hover:text-white">Resume</a> or connect with me on <a href="https://linkedin.com/in/conneryin" target="_blank" className="underline hover:text-white">LinkedIn</a></p>
           <div className="text-white flex flex-row flex-wrap justify-center items-center gap-2 py-6 mt-6">

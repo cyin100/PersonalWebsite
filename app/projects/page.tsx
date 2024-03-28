@@ -18,7 +18,16 @@ export default function Home() {
 
       <main className="container mx-auto px-6 text-center drop-shadow-xl mb-10">
         <h1 className="text-5xl font-bold mb-8 mt-14">
-          <span>Projects</span>
+          <span>Projects </span>
+          <span className="inline-block">
+            <Image
+                src="/icons/github.svg"
+                alt="Projects"
+                width={40}
+                height={40}
+                quality={100}
+            />
+          </span>
         </h1>
 
         <p className="text-gray-400">
