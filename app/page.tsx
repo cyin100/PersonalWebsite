@@ -65,7 +65,7 @@ export default function Home() {
               { title: 'LinkedIn', image: 'linkedin.svg', link: 'https://www.linkedin.com/in/conneryin' },
               { title: 'GitHub', image: 'github.svg', link: 'https://github.com/cyin100'},
             ].map(({ title, image, link }) => (
-              <a href={link} target="_blank" className="w-14 h-14 bg-gray-800 hover:bg-gray-700 rounded-full flex items-center justify-center">
+              <a key={title} href={link} target="_blank" className="w-14 h-14 bg-gray-800 hover:bg-gray-700 rounded-full flex items-center justify-center">
                 <Image src={`/icons/${image}`} alt={title} width={48} height={48} />
               </a>
             ))}
@@ -121,16 +121,16 @@ export default function Home() {
               <div className="md:w-3/4 md:p-8">
                 <h1 className="text-4xl font-bold md:text-left mb-4">About Me</h1>
                 <p className="text-left text-gray-400">
-                  Hi, I'm Conner! I'm a software engineer currently pursuing a Bachelors in Computer Science
-                  and Engineering at Santa Clara University, expecting to graduate December 2024.
+                  Hi, I&apos;m Conner! I&apos;m a software engineer currently pursuing a Bachelors in Computer Science
+                  and Engineering at Santa Clara University, graduating December 2024.
                   My primary goal is to spread my love for programming with others and to foster supportive communities.
-                  That's why I'm currently leading SCU's ACM and Competitive Programming clubs,
+                  That's why I&apos;m currently leading SCU&apos;s ACM and Competitive Programming clubs,
                   where I plan socials, hackathons, mock interviews, and teach workshops.
-                  In the past, I've interned at Intel, Roche, and X-Camp Academy, where I've worked on full-stack
-                  development, cloud and devops engineering, and automation. I'm also excited to be a software engineering
+                  In the past, I&apos;ve interned at Intel, Roche, and X-Camp Academy, where I&apos;ve worked on full-stack
+                  development, cloud and devops engineering, and automation. I&apos;m also excited to be a software engineering
                   intern this summer at Microsoft!
-                  Outside of tech, I'm passionate about music composition and production, hiking, and playing
-                  social deception games with friends. Please don't hesitate to reach out if you'd like to connect!
+                  Outside of tech, I&apos;m passionate about music composition and production, hiking, and playing
+                  social deception games with friends. Please don't hesitate to reach out if you&apos;d like to connect!
                 </p>
               </div>
             </div>
