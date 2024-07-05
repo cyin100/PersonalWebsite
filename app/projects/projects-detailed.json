@@ -8,8 +8,8 @@
         "logo": "/images/newcomerlogo.png",
         "images": ["/images/newcomer_table.png", "/images/newcomer_screenshot.jpg"],
         "links": {
-            "GitHub": "https://github.com/jordanmosakowski/newcomer",
-            "Slideshow": "/files/TripsitterPresentation.pdf"
+            "Slideshow": "/files/NewcomerSlides.pdf",
+            "Presentation": "https://www.youtube.com/watch?v=z4xg62X35RU"
         }
     },
     {

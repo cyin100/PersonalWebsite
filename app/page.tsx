@@ -6,12 +6,12 @@ const languages = {
   "python": "python-original.svg",
   "java": "java-original.svg",
   "c++": "cplusplus-original.svg",
+  "c#": "csharp-original.svg",
   "javascript": "javascript-original.svg",
   "typescript": "typescript-original.svg",
   "html": "html5-original.svg",
   "css": "css3-original.svg",
   "dart": "dart-original.svg",
-  "php": "php-original.svg",
 }
 
 const frameworks = {
