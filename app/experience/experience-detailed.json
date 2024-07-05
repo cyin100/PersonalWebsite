@@ -2,8 +2,8 @@
     {
         "id": "microsoft",
         "company": "Microsoft",
-        "title": "Incoming Software Engineer Intern",
-        "description": "I'm an incoming software engineer intern at Microsoft next summer (June - September 2024) at their main campus in Redmond, Washington. If you're also going to be an intern in Redmond/Seattle this summer, please reach out over email or LinkedIn - I'd love to connect!",
+        "title": "Software Engineer Intern",
+        "description": "I'm currently working at Microsoft under the Turing Team, which has the goal of developing cutting-edge Artificial Intelligence tools. Currently, the main focus is developing Copilot for Enterprise (Microsoft 365, Office, Windows etc.)\n\nMy project consists of improving upon the prompt building process for Copilot using the liquid template language and integration with a C# Parser. I'm also building a frontend interface in React to help developer workflow when working on prompt generation in the future.",
         "logo": "/images/microsoftlogo.png",
         "image": "/images/microsofthq.jpg"
     },
@@ -19,7 +19,7 @@
         "id": "compprog",
         "company": "SCU Competitive Programming Club",
         "title": "President & Founder",
-        "description": "I founded SCU ACM's competitive programming club, where I host weekly DSA (Data Structures & Algorithms) workshops, mock technical interviews, and plan logistics for and write problems for our very own quarterly in-person coding competitions.\n\nI helped register and train our members to attend the ICPC (International Collegiate Programming Contest), one of the most prestigious collegiate coding competitions. This was the first time SCU has ever sent any teams to the ICPC. ",
+        "description": "I founded SCU ACM's competitive programming club, where I host weekly DSA (Data Structures & Algorithms) workshops, mock technical interviews, and plan logistics for and write problems for our very own quarterly in-person coding competitions with 40+ participants.\n\nI helped register and train our members to attend the ICPC (International Collegiate Programming Contest), one of the most prestigious collegiate coding competitions. This was the first time SCU has ever sent any teams to the ICPC. ",
         "logo": "/images/cpclogo.png",
         "image": "/images/icpc.jpg"
     },
@@ -86,7 +86,7 @@
         "title": "Gold Division Contestant",
         "description": "USACO is a pre-collegiate programming competition divided into Bronze, Silver, Gold, and Platinum divisions. Competitors promote after earning a high enough score in the previous division. I earned a perfect score in the Bronze Division December 2018 contest and the Silver Division January 2019 contest.",
         "logo": "/images/usacologo.webp",
-        "image": "/images/cosmos.jpg"
+        "image": "/images/usaco.png"
     },
     {
         "id": "mvrt",

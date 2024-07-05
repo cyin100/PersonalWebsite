@@ -1,5 +1,12 @@
 [
     {
+      "id": "newcomer",
+      "title": "Newcomer",
+      "description": "New employee and intern networking",
+      "image": "/images/tripsitter.png",
+      "logo": "/images/newcomerlogo.png"
+    },
+    {
       "id": "tripsitter",
       "title": "Tripsitter",
       "description": "Your one stop shop for all things travel",
@@ -25,7 +32,7 @@
       "title": "Game Plan",
       "description": "Generate day trip plans based off time and location",
       "image": "/images/gameplan.png",
-      "logo": "/images/gameplanlogo.jpg"
+      "logo": "/images/gameplanlogo.png"
     },
     {
       "id": "undertale-file-loader",
@@ -39,7 +46,7 @@
       "title": "Personal Website",
       "description": "The site you're currently on! Learn about how I made it here.",
       "image": "/images/newsite.png",
-      "logo": "/images/personalsitelogo.png"
+      "logo": "/images/newsitelogo.png"
     },
     {
       "id": "allescan",

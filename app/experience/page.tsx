@@ -76,7 +76,7 @@ const Popup: React.FC<PopupProps> = ({ data, onClose, isVisible }) => {
     <div className="fixed inset-0 bg-black bg-opacity-50 text-black flex justify-center items-center py-14 px-4 z-50" onClick={handleClickOutside}>
       <div className={`p-6 rounded-lg h-full w-full md:w-5/12 bg-gradient-to-t from-gray-900 to-black text-white border border-gray-700 overflow-auto relative 
       flex flex-col justify-center items-center transition-all duration-150 ${isAnimating ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}`}>
-        <button onClick={handleClose} className="absolute top-2 right-2 text-lg">X</button>
+        {/* <button onClick={handleClose} className="absolute top-2 right-2 text-lg">X</button> */}
         <div className="w-1/2 h-1/2 flex items-center justify-center mb-2">
           <Image
             src={data.image}

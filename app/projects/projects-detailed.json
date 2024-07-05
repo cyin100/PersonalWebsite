@@ -1,5 +1,18 @@
 [
     {
+        "id": "newcomer",
+        "title": "Newcomer",
+        "creationDate": "Senior Design Project",
+        "description": "Newcomer is a mobile app and website in Flutter that connects employees at their new companies based off of similar interests or hobbies. Using machine learning hosted on a cloud Python server, we can recommend different groups that employees can join that are unique to each company based on an initial survey that asks for their interests. Members can then connect with others that share the same interests through a group chatting feature and schedule activities or events to help foster in person connections.\n\nThe project won our Senior Design Conference session, as well as the Computer Science & Engineering Department Technical Excellence Award. Only one team in the entire department is awarded this honor each year, selected from 40+ different teams and 200+ Computer Science students.",
+        "tags": ["Dart", "Flutter", "Firebase", "Python", "Flask", "word2vec", "sklearn", "spaCy"],
+        "logo": "/images/newcomerlogo.png",
+        "images": ["/images/newcomer_table.png", "/images/newcomer_screenshot.jpg"],
+        "links": {
+            "GitHub": "https://github.com/jordanmosakowski/newcomer",
+            "Slideshow": "/files/TripsitterPresentation.pdf"
+        }
+    },
+    {
         "id": "tripsitter",
         "title": "Tripsitter Travel",
         "creationDate": "March 2024",
@@ -49,7 +62,7 @@
         "creationDate": "INRIX Hack 2022 Finalist",
         "description": "Game Plan is a web and mobile app that simplifies planning day trips. Users fill out a questionnaire about their preferences for date, time, area, and interests. The app then curates a customized itinerary with various activities in the chosen locale. It's developed using Flutter and for a seamless front-end experience, and combines Firebase with Flask for backend processing. The app's standout feature is its unique algorithm, which taps into INRIX and Google Maps APIs to offer tailored suggestions based on location ratings and tags.\n\nMy contribution to GamePlan was leading the backend development in Python/Flask. I implemented the algorithm to interact with INRIX and Google Maps APIs, identifying potential hotspots and calculating travel times and distances. This was my first experience leading the backend for a project, and I learned a lot about piecing APIs together as well as saving costs by reducing API calls.",
         "tags": ["Dart", "Flutter", "Firebase", "Python", "Flask", "INRIX", "Google Maps"],
-        "logo": "/images/gameplanlogo.jpg",
+        "logo": "/images/gameplanlogo.png",
         "images": ["/images/gameplan.png"],
         "links": {
             "GitHub": "https://github.com/rukasuamarike/game-plan",

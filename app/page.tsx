@@ -21,23 +21,22 @@ const frameworks = {
   "tailwind": "tailwindcss-original.svg",
   "node.js": "nodejs-original.svg",
   "flask": "flask-original.svg",
+  "spring": "spring-original.svg",
   "firebase": "firebase-original.svg",
   "mysql": "mysql-original.svg",
-  // "spring": "spring-original.svg",
 }
 
 const tools = {
   "git": "git-original.svg",
+  "github": "github.svg",
   "vscode": "vscode-original.svg",
+  "jupyter": "jupyter-original.svg",
   "linux": "linux-original.svg",
   "postman": "postman-original.svg",
   "aws": "amazonwebservices-original-wordmark.svg",
-  "selenium": "selenium-original.svg"
+  "selenium": "selenium-original.svg",
+  "apache": "apache-original.svg",
 }
-
-const languagesJson = JSON.stringify(languages);
-const frameworksJson = JSON.stringify(frameworks);
-const toolsJson = JSON.stringify(tools);
 
 export default function Home() {
   return (
@@ -47,7 +46,7 @@ export default function Home() {
         <main className="container mx-auto px-6 text-center drop-shadow-xl">
           <div className="rounded-full overflow-hidden w-40 h-40 mx-auto mb-6 mt-14">
             <Image
-              src="/images/headshot.jpg"
+              src="/images/headshotnew.png"
               alt="Profile picture"
               width={160}
               height={160}
@@ -61,15 +60,15 @@ export default function Home() {
           </h1>
           <p className="text-gray-400 mt-4">I&apos;m a software engineer currently studying at Santa Clara University. Have a look around to see what I&apos;ve been up to!</p>
           <div className="flex justify-center mt-6 space-x-4">
-            <a href="mailto:conner.yin@gmail.com" className="w-14 h-14 bg-gray-800 hover:bg-gray-700 rounded-full flex items-center justify-center">
-              <Image src="/icons/gmail.svg" alt="Mail" width={48} height={48} />
-            </a>
-            <a href="https://www.linkedin.com/in/conneryin" target="_blank" className="w-14 h-14 bg-gray-800 hover:bg-gray-700 rounded-full flex items-center justify-center">
-              <Image src="/icons/linkedin.svg" alt="LinkedIn" width={48} height={48} />
-            </a>
-            <a href="https://github.com/cyin100" target="_blank" className="w-14 h-14 bg-gray-800 hover:bg-gray-700 rounded-full flex items-center justify-center">
-              <Image src="/icons/github.svg" alt="GitHub" width={48} height={48} />
-            </a>
+            {[
+              { title: 'Mail', image: 'gmail.svg', link: 'mailto:conner.yin@gmail.com' },
+              { title: 'LinkedIn', image: 'linkedin.svg', link: 'https://www.linkedin.com/in/conneryin' },
+              { title: 'GitHub', image: 'github.svg', link: 'https://github.com/cyin100'},
+            ].map(({ title, image, link }) => (
+              <a href={link} target="_blank" className="w-14 h-14 bg-gray-800 hover:bg-gray-700 rounded-full flex items-center justify-center">
+                <Image src={`/icons/${image}`} alt={title} width={48} height={48} />
+              </a>
+            ))}
           </div>
           <a href="/files/resume.pdf" target="_blank" className="mt-4 inline-block font-bold py-2 px-4 rounded-full transition duration-300 bg-gradient-name text-white mb-10">
             Resume
@@ -88,14 +87,14 @@ export default function Home() {
                 target={link.startsWith('http') ? '_blank' : undefined}
                 rel={link.startsWith('http') ? 'noopener noreferrer' : undefined}
               >
-                <h2 className={`mb-3 text-2xl font-semibold`}>
+                <h2 className={`mb-3 text-3xl font-semibold`}>
                   {title}{' '}
                   <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                     <Image
                       src={icon}
                       alt={title}
-                      width={20}
-                      height={20}
+                      width={25}
+                      height={25}
                       quality={100}
                     />
                   </span>
@@ -107,21 +106,21 @@ export default function Home() {
             ))}
           </div>
 
-          <div className="px-10 my-16 group rounded-lg border border-transparent px-5 py-4">
+          <div className="my-16 group rounded-lg border border-transparent px-10 py-4">
             <div className="flex flex-col md:flex-row">
-              <div className="md:w-1/3 mx-auto">
+              <div className="md:w-1/4 mx-auto">
                 <Image
-                  src="/images/headshot.jpg"
+                  src="/images/pineapplecrop.jpg"
                   alt="About Me"
-                  width={300}
-                  height={400}
-                  className="object-cover mx-auto rounded-lg shadow-lg"
+                  width={230}
+                  height={300}
+                  className="object-cover mx-auto rounded-lg shadow-lg mb-6"
                 />
               </div>
 
-              <div className="md:w-2/3 md:p-8 py-8">
+              <div className="md:w-3/4 md:p-8">
                 <h1 className="text-4xl font-bold md:text-left mb-4">About Me</h1>
-                <p className="mb-8 text-left">
+                <p className="text-left text-gray-400">
                   Hi, I'm Conner! I'm a software engineer currently pursuing a Bachelors in Computer Science
                   and Engineering at Santa Clara University, expecting to graduate December 2024.
                   My primary goal is to spread my love for programming with others and to foster supportive communities.
@@ -137,26 +136,28 @@ export default function Home() {
             </div>
           </div>
 
-          <h1 className="text-4xl font-bold">Skills</h1>
-          <div className="mt-4 mb-6 grid text-center md:grid-cols-2 lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left mx-auto">
+          <h1 className="text-4xl font-bold underline underline-offset-2 decoration-1 decoration-slate-400">Skills</h1>
+          <div className="mt-4 grid text-center md:grid-cols-2 lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left mx-auto">
             {[
               { title: 'Languages', items: languages },
               { title: 'Frameworks', items: frameworks },
               { title: 'Developer Tools', items: tools },
             ].map(({ title, items }) => (
-              <div key={title}>
-                <div className="text-2xl font-bold text-center">{title}</div>
-                {Object.entries(items).map(([item, image]) => (
-                  <div key={item}>
-                    <Image
-                      src={`/icons/${image}`}
-                      alt={item}
-                      width={50}
-                      height={50}
-                      className="object-cover mx-auto rounded-lg shadow-lg"
-                    />
-                  </div>
-                ))}
+              <div key={title} className='mb-6'>
+                <div className="text-2xl font-bold text-center mb-7">{title}</div>
+                <div className="grid text-center lg:max-w-5xl lg:w-full lg:mb-0 grid-cols-3 lg:text-left mx-auto md:border-x-2 ">
+                  {Object.entries(items).map(([item, image]) => (
+                    <div key={item} className="mb-6">
+                      <Image
+                        src={`/icons/${image}`}
+                        alt={item}
+                        width={50}
+                        height={50}
+                        className="object-cover mx-auto rounded-lg"
+                      />
+                    </div>
+                  ))}
+                </div>
               </div>
             ))}
           </div>
