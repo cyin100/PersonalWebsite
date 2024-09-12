@@ -3,7 +3,7 @@
         "id": "microsoft",
         "company": "Microsoft",
         "title": "Software Engineer Intern",
-        "description": "I'm currently working at Microsoft under the Turing Team, which has the goal of developing cutting-edge Artificial Intelligence tools. Currently, the main focus is developing Copilot for Enterprise (Microsoft 365, Office, Windows etc.)\n\nMy project consists of improving upon the prompt building process for Copilot using the liquid template language and integration with a C# Parser. I'm also building a frontend interface in React to help developer workflow when working on prompt generation in the future.",
+        "description": "I worked at Microsoft under the Turing Team, which has the goal of developing cutting-edge Artificial Intelligence tools. Currently, my main focus is developing Copilot for Enterprise (Microsoft 365, Office, Windows etc.)\n\nFor my project, I improved upon the prompt building process for Copilot by using the liquid template language and integrating with a C# Parser. Building a frontend interface in React, the tool will help developer workflow and enforce Responsible AI principles.",
         "logo": "/images/microsoftlogo.png",
         "image": "/images/microsofthq.jpg"
     },

@@ -124,13 +124,13 @@ export default function Home() {
                   Hi, I&apos;m Conner! I&apos;m a software engineer currently pursuing a Bachelors in Computer Science
                   and Engineering at Santa Clara University, graduating December 2024.
                   My primary goal is to spread my love for programming with others and to foster supportive communities.
-                  That's why I&apos;m currently leading SCU&apos;s ACM and Competitive Programming clubs,
+                  That&apos;s why I&apos;m currently leading SCU&apos;s ACM and Competitive Programming clubs,
                   where I plan socials, hackathons, mock interviews, and teach workshops.
                   In the past, I&apos;ve interned at Intel, Roche, and X-Camp Academy, where I&apos;ve worked on full-stack
                   development, cloud and devops engineering, and automation. I&apos;m also excited to be a software engineering
                   intern this summer at Microsoft!
                   Outside of tech, I&apos;m passionate about music composition and production, hiking, and playing
-                  social deception games with friends. Please don't hesitate to reach out if you&apos;d like to connect!
+                  social deception games with friends. Please don&apos;t hesitate to reach out if you&apos;d like to connect!
                 </p>
               </div>
             </div>
