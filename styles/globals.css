@@ -27,7 +27,8 @@ body {
 }
 
 .bg-gradient-name {
-  background-image: linear-gradient(to right, #2dd4bf, #3b82f6);
+  /* background-image: linear-gradient(to right, hsl(172, 66%, 50%), #3b82f6); */
+  background-image: linear-gradient(to right, hsl(172, 76%, 48%), #1c6beb); 
 }
 
 .image-container {

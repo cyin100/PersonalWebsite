@@ -65,25 +65,35 @@ export default function Home() {
               { title: 'LinkedIn', image: 'linkedin.svg', link: 'https://www.linkedin.com/in/conneryin' },
               { title: 'GitHub', image: 'github.svg', link: 'https://github.com/cyin100'},
             ].map(({ title, image, link }) => (
-              <a key={title} href={link} target="_blank" className="w-14 h-14 bg-gray-800 hover:bg-gray-700 rounded-full flex items-center justify-center">
+              <a 
+                key={title} 
+                href={link} 
+                target="_blank" 
+                className="w-14 h-14 rounded-full flex items-center justify-center transition-transform duration-300 ease-in-out transform hover:scale-110"
+              >
                 <Image src={`/icons/${image}`} alt={title} width={48} height={48} />
               </a>
             ))}
           </div>
-          <a href="/files/resume.pdf" target="_blank" className="mt-4 inline-block font-bold py-2 px-4 rounded-full transition duration-300 bg-gradient-name text-white mb-10">
-            Resume
+          <a
+            href="/files/resume.pdf"
+            target="_blank"
+            className="relative mt-4 inline-block font-semibold py-3 px-9 rounded-full bg-gradient-name f text-white mb-10 overflow-hidden group transition-all duration-500 ease-in-out transform hover:scale-110 hover:shadow-lg"
+          >
+            <span className="relative z-10">Resume</span>
+            <div className="absolute inset-0 bg-gradient-name opacity-40 blur-lg rounded-full transform translate-x-full transition-transform duration-500 ease-in-out group-hover:translate-x-0 group-hover:opacity-100"></div>
+            <div className="absolute inset-0 rounded-full bg-white opacity-10 backdrop-blur-lg group-hover:opacity-20 transition-opacity duration-500 ease-in-out"></div>
           </a>
-
           <div className="mb-6 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left mx-auto">
             {[
               { title: 'Projects', description: 'Hackathon and personal projects', icon: '/icons/github.svg', link: '/projects' },
               { title: 'Experience', description: 'Professional and leadership experience', icon: '/icons/linkedin.svg', link: '/experience' },
-              { title: 'Other', description: 'My music, blog, and other fun stuff', icon: '/icons/linkedin.svg', link: 'https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app' },
+              { title: 'Other', description: 'My music, blog, and other fun stuff [IN PROGRESS]', icon: '/icons/linkedin.svg', link: 'https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app' },
             ].map(({ title, description, icon, link }) => (
               <a
                 key={title}
                 href={link}
-                className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+                className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 duration-500"
                 target={link.startsWith('http') ? '_blank' : undefined}
                 rel={link.startsWith('http') ? 'noopener noreferrer' : undefined}
               >
@@ -106,11 +116,11 @@ export default function Home() {
             ))}
           </div>
 
-          <div className="my-16 group rounded-lg border border-transparent px-10 py-4">
+          <div className="my-12 group rounded-lg border border-transparent px-10 py-4">
             <div className="flex flex-col md:flex-row">
               <div className="md:w-1/4 mx-auto">
                 <Image
-                  src="/images/pineapplecrop.jpg"
+                  src="/images/cascades.jpg"
                   alt="About Me"
                   width={230}
                   height={300}
@@ -136,16 +146,16 @@ export default function Home() {
             </div>
           </div>
 
-          <h1 className="text-4xl font-bold underline underline-offset-2 decoration-1 decoration-slate-400">Skills</h1>
-          <div className="mt-4 grid text-center md:grid-cols-2 lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left mx-auto">
+          <h1 className="text-4xl font-bold decoration-1 decoration-slate-400">Skills</h1>
+          <div className="mt-6 grid text-center md:grid-cols-2 lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left mx-auto gap-8">
             {[
               { title: 'Languages', items: languages },
               { title: 'Frameworks', items: frameworks },
               { title: 'Developer Tools', items: tools },
             ].map(({ title, items }) => (
-              <div key={title} className='mb-6'>
-                <div className="text-2xl font-bold text-center mb-7">{title}</div>
-                <div className="grid text-center lg:max-w-5xl lg:w-full lg:mb-0 grid-cols-3 lg:text-left mx-auto md:border-x-2 ">
+              <div key={title} className="mb-6 p-6 rounded-[2rem] border-2 border-gray-300 dark:border-gray-800 transition-colors bg-gray-100 dark:bg-neutral-800/30 drop-shadow"> 
+                <div className="text-2xl text-center font-bold mb-7">{title}</div>
+                <div className="grid text-center lg:max-w-5xl lg:w-full lg:mb-0 grid-cols-3 lg:text-left mx-auto gap-4"> 
                   {Object.entries(items).map(([item, image]) => (
                     <div key={item} className="mb-6">
                       <Image
